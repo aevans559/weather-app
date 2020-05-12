@@ -22,7 +22,7 @@ export default class App extends Component {
 
 
   callAPI() {
-    axios.get(`http://localhost:3500/location/${this.state.city}.${this.state.state}`)
+    axios.get(`http://localhost:8080/location/${this.state.city}.${this.state.state}`)
       .then(res => res.data)
       .then(data => {
         this.setState({

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const axios = require("axios");
-const port = 3500;
+const port = 8080;
 
 const config = require('../config.js')
 
