@@ -3,3 +3,4 @@ client/public/bundle.js
 DS_Store
 .env
 config.js
+variables.env
