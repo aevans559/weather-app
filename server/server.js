@@ -4,7 +4,7 @@ require('dotenv').config({ path: 'variables.env' }); 
 
 const path = require("path");
 const axios = require("axios");
-const port = 8080;
+const port =  process.env.PORT || 8080; 
 
 // const config = require('../config.js')
 
