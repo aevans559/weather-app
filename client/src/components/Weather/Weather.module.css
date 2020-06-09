@@ -1,0 +1,41 @@
+.weatherContainer {
+    background-color: #6b93d6;
+    align-items: center;
+    border-top: 1px solid #e9eff9;
+    border-bottom: 1px solid #e9eff9;
+}
+
+.dayForecast {
+    list-style-type: none;
+    background-color: #e9eff9;
+    border: 3px solid black;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 130px;
+    width: 120px;
+}
+
+.hourlyForecast {
+    margin-left: -20px;
+    margin-right: 10px;
+    font-family: Blink;
+}
+
+.forecastContainer {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.location {
+    color: #e9eff9;
+    font-size: 30px;
+    font-family: Blink;
+}
+
+.date {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: Blink;
+}

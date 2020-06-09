@@ -1,0 +1,23 @@
+.headerContainer {
+    background-color: white;
+    color: #6b93d6;
+    height: 90px;
+}
+
+.pageGreeting {
+    font-size: 36px;
+    margin-left: 80px;
+    font-family: Blink;
+}
+
+.stateChoice {
+    margin-left: 10px;
+}
+
+.cityChoice {
+    margin-left: 10px;
+}
+
+.noLocation  {
+    color: #6b93d6;
+}
